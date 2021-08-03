@@ -1,0 +1,248 @@
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-family: 'Cabin', sans-serif;
+    line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+
+
+body {
+  margin: 0;
+  font-family: Cabin;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff; 
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+abbr[title],
+abbr[data-original-title] {
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+  cursor: help;
+  border-bottom: 0;
+  text-decoration-skip-ink: none; }
+
+address {
+  margin-bottom: 1rem;
+  font-style: normal;
+  line-height: inherit; }
+
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  margin-bottom: 0; }
+
+dt {
+  font-weight: 700; }
+
+dd {
+  margin-bottom: .5rem;
+  margin-left: 0; }
+
+blockquote {
+  margin: 0 0 1rem; }
+
+b,
+strong {
+  font-weight: bolder; }
+
+small {
+  font-size: 80%; }
+
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -.25em; }
+
+sup {
+  top: -.5em; }
+
+a {
+  color: rgb(70, 5, 252);
+  text-decoration: none;
+  background-color: transparent; }
+  a:hover {
+    color: #3aa4fa;
+    text-decoration: underline; }
+
+
+img {
+  vertical-align: middle;
+  border-style: none; 
+}
+.heading-section{
+font-family: Cabin;
+padding-top: 15px;
+margin: 10px;
+}
+.spancolor{
+  font-family: Cabin;
+padding-top: 15px;
+margin: 10px;
+color: rgb(70, 5, 252);
+}
+.titlehr{
+  border-top: 1px solid #eceaea8e;
+
+}
+.dbox{
+  background-color: #eceaea8e;
+  height: 270px;
+  padding: 45px 10px;
+  border-radius: 20px;
+  box-shadow: rgb(194 193 191 / 99%) 0px 13px 12px 0px;
+}
+.boxicon{
+  font-size: 35px;
+  color: #eceaea;
+}
+.text p{
+  text-align: center;
+  color: #b8b6b6;
+  font-size: 1.2rem;
+  font-family: Cabin;
+  font-weight: 400;
+  padding-top: 5px;
+}
+.icon{
+  background-color: rgb(70, 5, 252);
+  border-radius: 100%;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+}
+.icon:hover{
+  border-radius: 100%;
+  background-color: rgb(9, 105, 196);
+}
+.form{
+  padding: 15px 15px 25px 15px;
+  margin: 10px 10px 50px 10px;
+  background-color: #eceaea8e;
+  border-radius: 20px;
+  box-shadow: rgb(194 193 191 / 99%) 0px 13px 12px 0px;
+
+}
+.contactformtxt{
+  text-align: left;
+  color: rgb(70, 5, 252);
+  font-size: 1.8rem;
+  font-family: Cabin;
+  font-weight: 700;
+  padding-top: 5px;
+}
+.fromrow{
+  padding: 10px 5px;
+}
+
+.formgrouptxt{
+  font-size: 1rem;
+  font-family: Cabin;
+  font-weight: 700;
+  padding: 5px;
+}
+.selectoption{
+  display: block;
+    width: 100%;
+    padding: .375rem 2.25rem .375rem .75rem;
+    -moz-padding-start: calc(0.75rem - 3px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Cabin;
+
+    color: #2f2f30;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 16px 12px;
+    border: 1px solid rgb(70, 5, 252);
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-appearance: none;
+}
+.optionvalue{
+  background-color: rgb(70, 5, 252);
+  color: white;
+}
+select:hover{
+  background-color: rgb(70, 5, 252);
+  color: white;
+}
+.button{
+  background-color: rgb(70, 5, 252);
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: Cabin;
+  padding: 15px;
+  border-radius: 20px;
+}
+.contactbox{
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.footertxt{
+  color: rgb(61, 60, 60);
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+.text-dark{
+  color: rgb(70, 5, 252);
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+}
+.text-dark:hover{
+  color: rgb(70, 5, 252);
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+}
